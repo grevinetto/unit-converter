@@ -1,0 +1,51 @@
+conversion_data = {
+    'Joule': {
+        'Joule': 1,
+        'Kilojoule': 0.001,
+        'Calorie': 0.239006,
+        'Kilocalorie': 0.000239006,
+        'British Thermal Unit (Btu)': 0.000947817,
+        'Electron Volt': 6.24151e+18,
+    },
+    'Kilojoule': {
+        'Joule': 1000,
+        'Kilojoule': 1,
+        'Calorie': 239.006,
+        'Kilocalorie': 0.239006,
+        'British Thermal Unit (Btu)': 0.947817,
+        'Electron Volt': 6.24151e+21,
+    },
+    'Calorie': {
+        'Joule': 4.184,
+        'Kilojoule': 0.004184,
+        'Calorie': 1,
+        'Kilocalorie': 0.001,
+        'British Thermal Unit (Btu)': 0.00396567,
+        'Electron Volt': 2.61145e+19,
+    },
+    'Kilocalorie': {
+        'Joule': 4184,
+        'Kilojoule': 4.184,
+        'Calorie': 1000,
+        'Kilocalorie': 1,
+        'British Thermal Unit (Btu)': 3.96567,
+        'Electron Volt': 2.61145e+22,
+    },
+    'British Thermal Unit (Btu)': {
+        'Joule': 1055.06,
+        'Kilojoule': 1.05506,
+        'Calorie': 252.164,
+        'Kilocalorie': 0.252164,
+        'British Thermal Unit (Btu)': 1,
+        'Electron Volt': 6.58514e+21,
+    },
+    'Electron Volt': {
+        'Joule': 1.60218e-19,
+        'Kilojoule': 1.60218e-22,
+        'Calorie': 3.82673e-20,
+        'Kilocalorie': 3.82673e-23,
+        'British Thermal Unit (Btu)': 1.51857e-22,
+        'Electron Volt': 1,
+    },
+    # Add more units and their conversion factors as needed
+}
